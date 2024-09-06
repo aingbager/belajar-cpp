@@ -1,4 +1,4 @@
-//c++20
+ //c++20
 #include <algorithm>
 #include <iostream>
 #include <vector>

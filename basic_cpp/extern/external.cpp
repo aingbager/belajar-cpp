@@ -1,0 +1,1 @@
+int intGlobal = 60;

@@ -1,15 +1,13 @@
 #include <iostream>
-class Angka{
-  public:
+class Angka {
+public:
   static int nomor;
-  void cek(){
-    nomor ++;
-  }
+  void cek() { nomor++; }
 };
 
 int Angka::nomor = 0;
 
-int main (int argc, char *argv[]) {
+int main(int argc, char *argv[]) {
 
   Angka angka1;
   Angka angka2;

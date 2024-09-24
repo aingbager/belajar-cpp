@@ -3,9 +3,8 @@
 class Hewan{
   public:
 
-  virtual void suara()const{
-  std::cout << "suara hewan\n";
-  }
+  virtual void suara() const = 0;
+  virtual ~Hewan(){}; //destructor
 };
 
 class Anjing : public Hewan{

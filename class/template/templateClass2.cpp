@@ -4,7 +4,9 @@ public:
   T angka1;
 
   Angka(T a1) : angka1(a1) {}
-  T quadrat(T a2) { return a2 * a2; }
+  T quadrat(T a2) { 
+    return a2 * a2; 
+  }
 };
 
 int main(int argc, char *argv[]) {

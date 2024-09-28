@@ -1,15 +1,27 @@
-template<typename T>
-class Mahasiswa{
-  T name;
-  T angka;
-  Mahasiswa(T n1,T a1): name(n1),angka(a1){}
+#include <iostream>
 
-  T int kali(T int a,T int b){
-    return a*b;
+template<typename T>
+class Luas{
+  private:
+  T panjang;
+
+  public:
+  Luas(T p) : panjang(p){};
+
+  T luas(){
+    return panjang * panjang;
   }
-  
+
+  void display(){
+    std::cout << "panjang kubus: " << panjang << std::endl;
+    std::cout << "luasnya: " << luas() << std::endl;
+  }
+
 };
 int main (int argc, char *argv[]) {
 
+  Luas<int> kotak(5);
+  kotak.display();
+  
   return 0;
 }

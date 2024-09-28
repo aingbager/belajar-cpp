@@ -19,14 +19,6 @@ int main(int argc, char *argv[]) {
       std::cout << i << std::endl;
       std::this_thread::sleep_for(std::chrono::seconds(1));
       system("clear");
-
-      try {
-        if (i != 0) {
-          throw "error kode";
-        }
-      } catch (const char *message) {
-        std::cout << "err: " << message << std::endl;
-      }
     }
     system("systemctl poweroff");
   } else if (inputan == 2) {

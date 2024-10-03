@@ -1,3 +1,0 @@
-/home/aka/belajar-program/cpp/CMAKE/simpleProject/anjay/CMakeFiles/SimpleProject.dir
-/home/aka/belajar-program/cpp/CMAKE/simpleProject/anjay/CMakeFiles/edit_cache.dir
-/home/aka/belajar-program/cpp/CMAKE/simpleProject/anjay/CMakeFiles/rebuild_cache.dir

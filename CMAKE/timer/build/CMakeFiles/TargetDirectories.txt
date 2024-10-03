@@ -1,0 +1,3 @@
+/home/aka/belajar-program/cpp/CMAKE/timer/build/CMakeFiles/timer.dir
+/home/aka/belajar-program/cpp/CMAKE/timer/build/CMakeFiles/edit_cache.dir
+/home/aka/belajar-program/cpp/CMAKE/timer/build/CMakeFiles/rebuild_cache.dir

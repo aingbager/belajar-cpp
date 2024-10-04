@@ -1,0 +1,2 @@
+inputan pertama
+inputan kedua
